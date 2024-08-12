@@ -1,0 +1,48 @@
+INSERT INTO tbl_districts VALUES (sqc_district_id.nextval, 'norte');
+INSERT INTO tbl_districts VALUES (sqc_district_id.nextval, 'sul');
+INSERT INTO tbl_districts VALUES (sqc_district_id.nextval, 'leste');
+INSERT INTO tbl_districts VALUES (sqc_district_id.nextval, 'oeste');
+INSERT INTO tbl_districts VALUES (sqc_district_id.nextval, 'central');
+
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 1, 'pedro', 'xudre', 'pedro.xudre@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 1, 'celso', 'furtado', 'celso.furtado@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 2, 'marcus', 'maida', 'marcus.maida@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 2, 'flavio', 'moreni', 'flavio.moreni@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 3, 'henrique', 'poyatos', 'henrique.poyatos@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 3, 'israel', 'cajai', 'israel.cajai@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 4, 'rita', 'rodrigues', 'rita.rodrigues@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 4, 'aparecida', 'rosa', 'aparecida.rosa@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 5, 'andré', 'david', 'andre.david@mail.com');
+INSERT INTO tbl_residents VALUES (sqc_resident_id.nextval, 5, 'fabio', 'campos', 'fabio.campos@mail.com');
+
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 1, 1000.0, 'GREEN');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 1, 1000.0, 'RECYCLABLE');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 1, 1000.0, 'COMMON');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 2, 1000.0, 'GREEN');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 2, 1000.0, 'RECYCLABLE');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 2, 1000.0, 'COMMON');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 3, 1000.0, 'GREEN');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 3, 1000.0, 'RECYCLABLE');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 3, 1000.0, 'COMMON');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 4, 1000.0, 'GREEN');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 4, 1000.0, 'RECYCLABLE');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 4, 1000.0, 'COMMON');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 5, 1000.0, 'GREEN');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 5, 1000.0, 'RECYCLABLE');
+INSERT INTO tbl_trash_cans (id, id_district, maximum_capacity, type) VALUES (sqc_trash_can_id.nextval, 5, 1000.0, 'COMMON');
+
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '1234567', 1 ,'GREEN');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '2345678', 1 ,'RECYCLABLE');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '3456789', 1 ,'COMMON');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '4567890', 2 ,'GREEN');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '5678901', 2 ,'RECYCLABLE');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '6789012', 2 ,'COMMON');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '7890123', 3 ,'GREEN');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '8901234', 3 ,'RECYCLABLE');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '9012345', 3 ,'COMMON');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '0123456', 4 ,'GREEN');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '0987654', 4 ,'RECYCLABLE');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '9876543', 4 ,'COMMON');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '8765432', 5 ,'GREEN');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '7654321', 5 ,'RECYCLABLE');
+INSERT INTO tbl_trucks VALUES (sqc_truck_id.nextval, '6543210', 5 ,'COMMON');
